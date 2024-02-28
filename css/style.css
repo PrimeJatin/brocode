@@ -527,7 +527,7 @@ ion-icon {
 }
 
 .contact{
-    padding-top: 850px;
+    padding-top: 950px;
 }
 
 
@@ -605,14 +605,14 @@ ion-icon {
   
   .form-box h2 {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .input-box {
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #2c2c2c;
     margin: 30px 0;
   }
   
@@ -622,7 +622,7 @@ ion-icon {
     left: 5px;
     transform: translateY(-50%);
     font-size: 1.2em;
-    color: #fff;
+    color: #0e0e0e;
     font-weight: 900;
     pointer-events: none;
     transition: .4s;
@@ -635,7 +635,7 @@ ion-icon {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #fff;
+    color: #000000;
     font-weight: 600;
     padding: 0 35px 0 5px;
   }
@@ -649,14 +649,14 @@ ion-icon {
     position: absolute;
     right: 8px;
     font-size: 1.2rem;
-    color: #fff;
+    color: #171717;
     line-height: 57px;
     bottom: 10px;
   }
   
   .remember-forget {
     font-size: .9em;
-    color: #fff;
+    color: #282828;
     font-weight: 500;
     width: 100%;
     display: flex;
@@ -665,12 +665,12 @@ ion-icon {
   }
   
   .remember-forget label input {
-    accent-color: #fff;
+    accent-color: #010101;
     margin-right: 3px;
   }
   
   .remember-forgot a {
-    color: #fff;
+    color: #505050;
     text-decoration: none;
   }
   
@@ -681,7 +681,7 @@ ion-icon {
   .btn {
     width: 100%;
     height: 45px;
-    background: #fff;
+    background: #3b3b3b;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -693,14 +693,14 @@ ion-icon {
   
   .btn:hover{
     background-color: black;
-    color: white;
-    box-shadow: 0 0 10px white;
+    color: rgb(46, 46, 46);
+    box-shadow: 0 0 10px rgb(47, 47, 47);
   }
   
   .login-register {
     width: 100%;
     font-size: .9rem;
-    color: #fff;
+    color: #1a1a1a;
     text-align: center;
     display: flex;
     font-weight: 500;
@@ -710,7 +710,7 @@ ion-icon {
   }
   
   .login-register a {
-    color: #fff;
+    color: #3a3a3a;
     padding: 0 10px;
     text-decoration: none;
     font-weight: 900;
@@ -751,3 +751,71 @@ ion-icon {
     border: none;
 }
 
+.register h2 {
+
+    padding-top: 30px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px ;
+}
+.col2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col2 h1{
+    font-size: 50px;
+    margin: 25px 0;
+    line-height: 60px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 23px;
+    transition: background 0.5sec;
+}
+.header{
+    background: linear-gradient(rgba(25, 25, 59, 0.5),rgba(25, 25, 597, 0.5));
+}
+.header .row{
+    margin-top: 70px;
+}.btn:hover{
+    background-color: #563434;
+}
+
+
+.btn2{
+    width: 150px;
+    margin-left: 30px;
+}
+
+.col2 h1,p{
+    margin-left: 30px;
+}
+
+.trend{
+    margin-top:100px;
+}
+
+.wrapper{
+    margin-top: -700px;    
+}
+
+.trend .img-boxes{
+    background: #ffffff;
+    transition: .4s all ease;
+}
+
+.trend .img-boxes:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
